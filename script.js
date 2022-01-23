@@ -5,8 +5,8 @@ class ListaTareas{
         if (!this.tareas){
             this.tareas = [
                 {tarea: 'Aprender JavaScript', completado: false},
-                {tarea: 'Aprender Python', completado: false},
-                {tarea: 'Aprender C++', completado: true}
+                {tarea: 'Aprender Node', completado: false},
+                {tarea: 'Aprender MySql', completado: true}
             ];
         }
         this.cargarTareas();
